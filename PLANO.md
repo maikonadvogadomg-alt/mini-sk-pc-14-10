@@ -1,27 +1,28 @@
 # 📋 Plano do projeto: Mini-SK-PC-14-10
 
-_Gerado em 14/10/2026, 18:14:42 — sem IA, lendo os arquivos._
+_Gerado em 14/10/2026, 18:15:24 — sem IA, lendo os arquivos._
 
 ## 📊 Visão geral
 | Item | Valor |
 |---|---|
-| Arquivos | 90 |
-| Linhas | 11.108 |
-| Telas/páginas | 1 |
+| Arquivos | 93 |
+| Linhas | 11.451 |
+| Telas/páginas | 2 |
 | Rotas do backend | 0 |
 | Chamadas do app | 0 |
 | Tabelas do banco | 0 |
 | Variáveis de ambiente | 5 |
 
-**Linguagens:** JavaScript (44), Imagem (30), Imagem SVG (4), Markdown (3), YAML (2), Ícone (2), JSON (2), Outros (1), CSS (1), HTML (1)
+**Linguagens:** JavaScript (45), Imagem (30), Imagem SVG (4), Markdown (3), JSON (3), YAML (2), Ícone (2), HTML (2), Outros (1), CSS (1)
 
 ## 💡 O que fazer (em ordem)
-1. 🧹 Tirar a Replit de 13 arquivo(s) (🏗️ Preparar → Fazer tudo)
+1. 🧹 Tirar a Replit de 14 arquivo(s) (🏗️ Preparar → Fazer tudo)
 2. 🔐 Criar um .env.example com: BASE_PATH, GITHUB_STEP_SUMMARY, PONTE_BASE, PONTE_CODIGO, PONTE_PORTA (os valores você coloca no servidor, nunca no código)
 3. 📝 Criar um README.md explicando como rodar
 
 ## 🚀 Por onde começa
 - `app/index.html`
+- `index.html`
 
 ## ⌨️ Comandos (package.json)
 | Pasta | Comando | O que roda |
@@ -34,6 +35,7 @@ _Gerado em 14/10/2026, 18:14:42 — sem IA, lendo os arquivos._
 | Endereço | Arquivo |
 |---|---|
 | `app/index.html` | app/index.html |
+| `index.html` | index.html |
 
 ## 🖥️ Rotas do backend
 _Nenhum encontrado._
@@ -119,6 +121,7 @@ _Só os nomes. Os valores (chaves, senhas) nunca vão no código nem no GitHub._
 - app/js/lib/expo-core.js
 - app/js/lib/plano-core.js
 - app/service-worker.js
+- service-worker.js
 
 ## 🔁 Roteiro para recriar fora da Replit
 1. Importar o projeto no Mini SK e tocar em 🏗️ Preparar → ✅ Fazer tudo (tira a Replit, cria os arquivos que faltam).
@@ -225,7 +228,10 @@ _Só os nomes. Os valores (chaves, senhas) nunca vão no código nem no GitHub._
 │  └─ maskable.svg
 ├─ .gitignore
 ├─ favicon.ico
+├─ index.html
 ├─ LEIA-ME.md
+├─ manifest.json
 ├─ package.json
-└─ PLANO.md
+├─ PLANO.md
+└─ service-worker.js
 ```
